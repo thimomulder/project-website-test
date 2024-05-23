@@ -118,10 +118,9 @@ footer {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
     .feature-box {
         flex-direction: column;
-
     }
 }
 
