@@ -122,6 +122,33 @@ footer {
     .feature-box {
         flex-direction: column;
     }
+
+    .feature-box div{
+        margin: 5px;
+        padding: 10px;
+        height: auto;
+        color: black;
+        font-size: 11px;
+        border-radius: 10px;
+    }
+
+    .feature-box.info div {
+        background: lightgreen;
+        width: auto;
+    }
+
+    .feature-box.feature div {
+        background: lightseagreen;
+        width: auto;
+    }
+
+    .feature-box.feature img {
+        border-style: solid;
+        border-width: 2px;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
