@@ -2,29 +2,44 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="../js/javascript.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My page!</title>
+        <title>ThimoTech - Home</title>
     </head>
     <body>
         <header>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="locations.html">Locations</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <h1>Home</h1>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="pages/services.html">Services</a>
+                <!-- <a href="pages/contact.html">Contact</a>
+                <a href="pages/about.html">About</a> -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </header>
-        <section class="feature-box sales">
-            <div>a</div>
-            <div>b</div>
-            <div>c</div>
+        <section>
+            <h1 class="page-title">Home</h1>
+            <hr color="darkgreen" width="100%" size="2px">
         </section>
-        <section class="feature-box closeouts">
-            <div>1</div>
-            <div>2</div>
+        <section class="feature-box info">
+            <div>
+                <h2>infobox 1</h2>
+                <hr color="darkgreen" width="100%" size="1px">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ab magni odit omnis similique animi, molestiae consectetur. Asperiores praesentium mollitia nostrum eum reprehenderit? Mollitia unde aspernatur, quae debitis quo praesentium.</p>
+            </div>
+            <div>
+                <h2>infobox 2</h2>
+                <hr color="darkgreen" width="100%" size="1px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ex aspernatur itaque temporibus hic mollitia, quod similique consequatur illo omnis delectus laborum, reprehenderit harum magni minus ullam? Maxime, voluptatibus soluta!</p>
+            </div>
+            <div>
+                <h2>infobox 3</h2>
+                <hr color="darkgreen" width="100%" size="1px">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, consectetur! Quos explicabo voluptatibus, nisi quidem doloribus possimus corporis numquam, sapiente reprehenderit inventore omnis, autem repellat aut dolor perferendis debitis repellendus.</p>
+            </div>
         </section>
         <footer>footer</footer>
     </body>
